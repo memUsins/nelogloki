@@ -1,0 +1,30 @@
+{
+  "name": "nelogfile",
+  "version": "0.0.1",
+  "description": "Logger file adapter",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "format": "prettier -w ./src",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "Logger"
+  ],
+  "type": "commonjs",
+  "author": "memUsins",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/pako": "^2.0.4",
+    "eslint": "^9.39.1",
+    "prettier": "^3.7.3"
+  },
+  "dependencies": {
+    "nelog": "^0.0.1",
+    "pako": "^2.1.0"
+  }
+}
