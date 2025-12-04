@@ -1,7 +1,7 @@
 {
-  "name": "nelogfile",
+  "name": "nelogloki",
   "version": "0.0.1",
-  "description": "Logger file adapter",
+  "description": "Logger loki adapter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
