@@ -1,6 +1,6 @@
 {
   "name": "nelogloki",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Logger loki adapter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,7 +24,7 @@
     "prettier": "^3.7.3"
   },
   "dependencies": {
-    "nelog": "^0.0.1",
+    "nelog": "^0.0.2",
     "pako": "^2.1.0"
   }
 }
